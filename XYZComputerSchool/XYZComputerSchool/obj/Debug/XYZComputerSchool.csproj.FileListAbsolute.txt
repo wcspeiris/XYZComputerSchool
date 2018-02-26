@@ -1,0 +1,40 @@
+C:\Users\CRAZY\Desktop\New folder (2)\Application\XYZComputerSchool\XYZComputerSchool\bin\roslyn\csc.exe
+C:\Users\CRAZY\Desktop\New folder (2)\Application\XYZComputerSchool\XYZComputerSchool\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\CRAZY\Desktop\New folder (2)\Application\XYZComputerSchool\XYZComputerSchool\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\CRAZY\Desktop\New folder (2)\Application\XYZComputerSchool\XYZComputerSchool\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\CRAZY\Desktop\New folder (2)\Application\XYZComputerSchool\XYZComputerSchool\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\CRAZY\Desktop\New folder (2)\Application\XYZComputerSchool\XYZComputerSchool\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\CRAZY\Desktop\New folder (2)\Application\XYZComputerSchool\XYZComputerSchool\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\CRAZY\Desktop\New folder (2)\Application\XYZComputerSchool\XYZComputerSchool\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\CRAZY\Desktop\New folder (2)\Application\XYZComputerSchool\XYZComputerSchool\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\CRAZY\Desktop\New folder (2)\Application\XYZComputerSchool\XYZComputerSchool\bin\roslyn\vbc.exe
+C:\Users\CRAZY\Desktop\New folder (2)\Application\XYZComputerSchool\XYZComputerSchool\bin\roslyn\VBCSCompiler.exe
+C:\Users\CRAZY\Desktop\New folder (2)\Application\XYZComputerSchool\XYZComputerSchool\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\CRAZY\Desktop\New folder (2)\Application\XYZComputerSchool\XYZComputerSchool\bin\XYZComputerSchool.dll.config
+C:\Users\CRAZY\Desktop\New folder (2)\Application\XYZComputerSchool\XYZComputerSchool\bin\XYZComputerSchool.dll
+C:\Users\CRAZY\Desktop\New folder (2)\Application\XYZComputerSchool\XYZComputerSchool\bin\XYZComputerSchool.pdb
+C:\Users\CRAZY\Desktop\New folder (2)\Application\XYZComputerSchool\XYZComputerSchool\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\CRAZY\Desktop\New folder (2)\Application\XYZComputerSchool\XYZComputerSchool\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\CRAZY\Desktop\New folder (2)\Application\XYZComputerSchool\XYZComputerSchool\obj\Debug\XYZComputerSchool.csprojResolveAssemblyReference.cache
+C:\Users\CRAZY\Desktop\New folder (2)\Application\XYZComputerSchool\XYZComputerSchool\obj\Debug\XYZComputerSchool.dll
+C:\Users\CRAZY\Desktop\New folder (2)\Application\XYZComputerSchool\XYZComputerSchool\obj\Debug\XYZComputerSchool.pdb
+I:\HND\ASP\Assignment\Application\XYZComputerSchool\XYZComputerSchool\bin\roslyn\csc.exe
+I:\HND\ASP\Assignment\Application\XYZComputerSchool\XYZComputerSchool\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+I:\HND\ASP\Assignment\Application\XYZComputerSchool\XYZComputerSchool\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+I:\HND\ASP\Assignment\Application\XYZComputerSchool\XYZComputerSchool\bin\roslyn\Microsoft.CodeAnalysis.dll
+I:\HND\ASP\Assignment\Application\XYZComputerSchool\XYZComputerSchool\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+I:\HND\ASP\Assignment\Application\XYZComputerSchool\XYZComputerSchool\bin\roslyn\Microsoft.CSharp.Core.targets
+I:\HND\ASP\Assignment\Application\XYZComputerSchool\XYZComputerSchool\bin\roslyn\Microsoft.VisualBasic.Core.targets
+I:\HND\ASP\Assignment\Application\XYZComputerSchool\XYZComputerSchool\bin\roslyn\System.Collections.Immutable.dll
+I:\HND\ASP\Assignment\Application\XYZComputerSchool\XYZComputerSchool\bin\roslyn\System.Reflection.Metadata.dll
+I:\HND\ASP\Assignment\Application\XYZComputerSchool\XYZComputerSchool\bin\roslyn\vbc.exe
+I:\HND\ASP\Assignment\Application\XYZComputerSchool\XYZComputerSchool\bin\roslyn\VBCSCompiler.exe
+I:\HND\ASP\Assignment\Application\XYZComputerSchool\XYZComputerSchool\bin\roslyn\VBCSCompiler.exe.config
+I:\HND\ASP\Assignment\Application\XYZComputerSchool\XYZComputerSchool\bin\XYZComputerSchool.dll.config
+I:\HND\ASP\Assignment\Application\XYZComputerSchool\XYZComputerSchool\bin\XYZComputerSchool.dll
+I:\HND\ASP\Assignment\Application\XYZComputerSchool\XYZComputerSchool\bin\XYZComputerSchool.pdb
+I:\HND\ASP\Assignment\Application\XYZComputerSchool\XYZComputerSchool\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+I:\HND\ASP\Assignment\Application\XYZComputerSchool\XYZComputerSchool\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+I:\HND\ASP\Assignment\Application\XYZComputerSchool\XYZComputerSchool\obj\Debug\XYZComputerSchool.dll
+I:\HND\ASP\Assignment\Application\XYZComputerSchool\XYZComputerSchool\obj\Debug\XYZComputerSchool.pdb
+I:\HND\ASP\Assignment\Application\XYZComputerSchool\XYZComputerSchool\obj\Debug\XYZComputerSchool.csprojResolveAssemblyReference.cache

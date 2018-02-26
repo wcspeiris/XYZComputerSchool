@@ -1,0 +1,35 @@
+﻿.mGrid { 
+    width: 100%; 
+    background-color: #fff; 
+    margin: 5px 0 10px 0; 
+    border: solid 1px #525252; 
+    border-collapse:collapse;
+    border-radius:5px; 
+}
+.mGrid td { 
+    padding: 2px; 
+    border: solid 1px #c1c1c1; 
+    color: black;
+    font-family:Rockwell; 
+}
+.mGrid th { 
+    padding: 4px 2px; 
+    color: #fff; 
+    background: #03526c url(grd_head_blue.png) repeat-x top; 
+    border-left: solid 1px #525252; 
+    font-size: 1.1em; 
+    font-family:Cambria;
+}
+
+.mGrid .pgr { background: #424242 url(grd_pgr_blue.png) repeat-x top; }
+.mGrid .pgr table { margin: 5px 0; }
+.mGrid .pgr td { 
+    border-width: 0; 
+    padding: 0 6px; 
+    border-left: solid 1px #666; 
+    font-weight: bold; 
+    color: #fff; 
+    line-height: 12px; 
+ }   
+.mGrid .pgr{ color: #666; text-decoration: none; }
+.mGrid .pgr { color: #000; text-decoration: none; }

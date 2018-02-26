@@ -1,0 +1,206 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="XYZExamPaper.master.cs" Inherits="XYZComputerSchool.WebForms.XYZExamPaper" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="Bootstrap Custom Designs/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="Bootstrap Custom Designs/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="Bootstrap Custom Designs/css/sb-admin.min.css" rel="stylesheet" />
+    <link href="Bootstrap Custom Designs/css/grid12.css" rel="stylesheet" />
+    <link href="Bootstrap Custom Designs/css/custom styles.css" rel="stylesheet" />
+    <link href="Bootstrap Custom Designs/css/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="Bootstrap Custom Designs/Glyphicons Design/Glyphicons/bootstrap.min.css" rel="stylesheet" />
+    <link href="Bootstrap Custom Designs/css/CircleButtons.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <style>
+        .btn-circle {
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            padding: 6px 0;
+            font-size: 16px;
+            line-height: 1.428571429;
+            border-radius: 60px;
+        }
+
+        .btn-circleSmall {
+            width: 30px;
+            height: 30px;
+            text-align: center;
+            padding: 6px 0;
+            font-size: 12px;
+            line-height: 1.428571429;
+            border-radius: 60px;
+        }
+    </style>
+</head>
+
+<body class="fixed-nav" id="page-top">
+    <form runat="server">
+
+        <!-- Navigation Bar-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="background: linear-gradient(#052a39, #03562c);">
+            <div class="navbar-brand" style="height: 64px">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-3 col-md-1">
+                            <a href="#">
+                                <img src="Images/logo.png" class="img-fluid img-thumbnail" />
+                            </a>
+                        </div>
+                        <div class="col-xs-8 col-xs-push-2">
+                            <h1 style="text-align: center; font-size: 3vw; font-family: 'Trajan Pro'">XYZ COMPUTER SCHOOL</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav navbar-sidenav" style="padding-top: 20px; background: linear-gradient(#03562c, #ae6b0a); margin-top: 78px">
+                    <li class="nav-item nav-text-background" data-toggle="tooltip" data-placement="right" title="Student Grades" style="margin-top: 492px"></li>                    
+                </ul>
+
+                <!--Home and Logout Buttons-->
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="studentIndex.aspx">
+                            <div class="link-menus">
+                                <i class="fa fa-fw fa-home fa-2x"></i>
+                                Home
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-home-logout" data-toggle="modal" data-target="#exampleModal">
+                            <div class="link-menus">
+                                <i class="fa fa-fw fa-sign-out fa-2x"></i>
+                                Logout
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="content-wrapper" style="margin-top: 24px">
+            
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-9">
+                                                
+                        <!-- Breadcrumbs -->
+                        <ol class="breadcrumb" style="margin-top: 15px; height: 45px; color: white; font-family: TAUNTON; background: linear-gradient(#034354, #068846)">
+                            <li class="breadcrumb-item pull-right">
+                                <p>
+                                    Logged in User :
+                        <asp:Label runat="server" ID="lblLoggedinUser"></asp:Label>
+                                </p>
+                            </li>
+                        </ol>
+
+                        <!--Contents of content pages-->
+                        <div style="height: 471px;">
+                            <asp:ContentPlaceHolder ID="body" runat="server"></asp:ContentPlaceHolder>
+                        </div>
+                    </div>
+                    <div class="col-sm-3" style="background: linear-gradient(#03562c, #ae6b0a);">
+
+                        <!--Legend Buttons-->
+                        <div style="text-align: center; margin-top: 10px">
+                            <div>
+                                <asp:Button ID="btn01" runat="server" Text="1" CssClass="btn btn-default btn-circle" />&nbsp&nbsp&nbsp
+                                <asp:Button ID="btn02" runat="server" Text="2" CssClass="btn btn-default btn-circle" />&nbsp&nbsp&nbsp
+                                <asp:Button ID="btn03" runat="server" Text="3" CssClass="btn btn-default btn-circle" />
+                            </div>
+                            <div>&nbsp</div>
+                            <div>
+                                <asp:Button ID="btn04" runat="server" Text="4" CssClass="btn btn-default btn-circle" />&nbsp&nbsp&nbsp
+                                <asp:Button ID="btn05" runat="server" Text="5" CssClass="btn btn-default btn-circle" />&nbsp&nbsp&nbsp
+                                <asp:Button ID="btn06" runat="server" Text="6" CssClass="btn btn-default btn-circle" />
+                            </div>
+                            <div>&nbsp</div>
+                            <div>
+                                <asp:Button ID="btn07" runat="server" Text="7" CssClass="btn btn-default btn-circle" />&nbsp&nbsp&nbsp
+                                <asp:Button ID="btn08" runat="server" Text="8" CssClass="btn btn-default btn-circle" />&nbsp&nbsp&nbsp
+                                <asp:Button ID="btn09" runat="server" Text="9" CssClass="btn btn-default btn-circle" />
+                            </div>
+                            <div>&nbsp</div>
+                            <div>
+                                <asp:Button ID="btn10" runat="server" Text="10" CssClass="btn btn-default btn-circle" />&nbsp&nbsp&nbsp
+                                <asp:Button ID="btn11" runat="server" Text="11" CssClass="btn btn-default btn-circle" />&nbsp&nbsp&nbsp
+                                <asp:Button ID="btn12" runat="server" Text="12" CssClass="btn btn-default btn-circle" />
+                            </div>
+                            <div>&nbsp</div>
+                            <div>
+                                <asp:Button ID="btn13" runat="server" Text="13" CssClass="btn btn-default btn-circle" />&nbsp&nbsp&nbsp
+                                <asp:Button ID="btn14" runat="server" Text="14" CssClass="btn btn-default btn-circle" />&nbsp&nbsp&nbsp
+                                <asp:Button ID="btn15" runat="server" Text="15" CssClass="btn btn-default btn-circle" />
+                            </div>
+                        </div>
+                        <div style="margin-top: 20px;">
+                            <div style="padding-left: 20px">
+                                <asp:Button ID="Button16" runat="server" CssClass="btn btn-primary btn-circleSmall" OnClientClick="return false" />
+                                <asp:Label ID="Label1" runat="server" Text="Current Question" CssClass="text-light"></asp:Label>
+                            </div>
+                            <div style="padding-left: 40px">
+                                <asp:Button ID="Button17" runat="server" CssClass="btn btn-default btn-circleSmall" OnClientClick="return false" />
+                                <asp:Label ID="Label2" runat="server" Text="Not Attempted" CssClass="text-light"></asp:Label>
+                            </div>
+                            <div style="padding-left: 60px">
+                                <asp:Button ID="Button18" runat="server" CssClass="btn btn-success btn-circleSmall" OnClientClick="return false" />
+                                <asp:Label ID="Label3" runat="server" Text="Answered" CssClass="text-light"></asp:Label>
+                            </div>
+                            <div style="padding-left: 80px">
+                                <asp:Button ID="Button19" runat="server" CssClass="btn btn-danger btn-circleSmall" OnClientClick="return false" />
+                                <asp:Label ID="Label4" runat="server" Text="Not Answered" CssClass="text-light"></asp:Label>
+                            </div>
+                            <div style="padding-left: 100px">
+                                <asp:Button ID="Button20" runat="server" CssClass="btn btn-warning btn-circleSmall" OnClientClick="return false" />
+                                <asp:Label ID="Label5" runat="server" Text="Left for Review" CssClass="text-light"></asp:Label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <footer class="col-sm-12 bg-dark">
+            <p class="text-center text-light">&copy; Copyright 2017</p>
+        </footer>
+
+        <!-- Logout Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Select "Logout" below if you are ready to end your current session.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                        <a class="btn btn-primary" href="Login.aspx">Logout</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <!-- Bootstrap core JavaScript -->
+    <script src="Bootstrap Custom Designs/jquery/jquery.min.js"></script>
+    <script src="Bootstrap Custom Designs/jquery/popper.min.js"></script>
+    <script src="Bootstrap Custom Designs/jquery/bootstrap.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="Bootstrap Custom Designs/jquery/sb-admin.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+.nav-text-font{
+    font-size:20px;
+    font-family:Rockwell;    
+}
+
+.nav-text-font-sub{
+    font-size:16px;
+    font-family:Rockwell;    
+}
+
+h1 {
+  font-size: 5.9vw;
+}
+h2 {
+  font-size: 3.0vh;
+}
+p {
+  font-size: 2vmin;
+}
+
+.link-menus{
+    color:white;
+}
+
+.link-menus:hover{
+    color:Highlight;
+}
+
+
+
+
+
+
+
+

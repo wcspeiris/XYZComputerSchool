@@ -1,0 +1,153 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="XYZStudentMasterPage.master.cs" Inherits="XYZComputerSchool.WebForms.XYZStudentMasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+
+    <link href="Bootstrap Custom Designs/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="Bootstrap Custom Designs/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="Bootstrap Custom Designs/css/sb-admin.min.css" rel="stylesheet" />
+    <link href="Bootstrap Custom Designs/css/grid12.css" rel="stylesheet" />
+    <link href="Bootstrap Custom Designs/css/custom styles.css" rel="stylesheet" />
+    <link href="Bootstrap Custom Designs/css/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="Bootstrap Custom Designs/Glyphicons Design/Glyphicons/bootstrap.min.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+
+<body class="fixed-nav" id="page-top">
+
+    <!-- Navigation Bar-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="background: linear-gradient(#052a39, #03562c);">
+        <div class="navbar-brand" style="height:64px">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-3 col-md-1">
+                        <a href="#">
+                            <img src="Images/logo.png" class="img-fluid img-thumbnail" />                            
+                        </a>
+                    </div>
+                    <div class="col-xs-8 col-xs-push-2">
+                        <h1 style="text-align: center; font-size: 3vw; font-family: 'Trajan Pro'">XYZ COMPUTER SCHOOL</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav navbar-sidenav" style="padding-top: 20px; background: linear-gradient(#03562c, #ae6b0a); margin-top: 80px">
+                <li class="nav-item nav-text-background" data-toggle="tooltip" data-placement="right" title="Student Grades" style="margin-top: 80px">
+                    <a class="nav-link" href="ObtainedGrades.aspx">
+                        <div class="link-menus">
+                            <i class="fa fa-bar-chart fa-2x"></i>
+                            <span class="nav-link-text nav-text-font">Obtained Grades</span>
+                        </div>
+                    </a>
+                </li>                
+                <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Modules" style="margin-top: 30px">
+                    <a class="nav-link" href="AvailableModules.aspx">
+                        <div class="link-menus">
+                            <i class="fa fa-edit fa-2x"></i>
+                            <span class="nav-link-text nav-text-font">Available Modules</span>
+                        </div>
+                    </a>
+                </li>                
+            </ul>
+
+            <!--Navbar toggler-->
+            <ul class="navbar-nav sidenav-toggler">
+                <li class="nav-item">
+                    <a class="nav-link text-center" id="sidenavToggler">
+                        <i class="fa fa-fw fa-angle-left"></i>
+                    </a>
+                </li>
+            </ul>
+
+            <!--Home and Logout Buttons-->
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="studentIndex.aspx">
+                        <div class="link-menus">
+                            <i class="fa fa-fw fa-home fa-2x"></i>
+                            Home
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-home-logout" data-toggle="modal" data-target="#exampleModal">
+                        <div class="link-menus">
+                            <i class="fa fa-fw fa-sign-out fa-2x"></i>
+                            Logout
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="content-wrapper py-3">
+        <div class="container-fluid">
+
+            <!-- Breadcrumbs -->
+            <ol class="breadcrumb" style="margin-top: 10px; height: 45px; color: white; font-family: TAUNTON; background: linear-gradient(#034354, #068846)">
+                <li class="breadcrumb-item pull-right">
+                    <p>Logged in User :
+                        <asp:Label runat="server" ID="lblLoggedinUser"></asp:Label>
+                    </p>
+                </li>
+            </ol>
+
+            <!--Contents of content pages-->
+            <div style="height: 490px;">
+                <asp:ContentPlaceHolder ID="body" runat="server"></asp:ContentPlaceHolder>
+            </div>            
+        </div>           
+    </div>
+    <footer class="col-sm-12 bg-dark">
+                <p class="text-center text-light">&copy; Copyright 2017</p>
+            </footer>
+
+    <!-- Scroll to Top Button -->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fa fa-angle-up"></i>
+    </a>
+
+
+    <!-- Logout Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Select "Logout" below if you are ready to end your current session.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                    <a class="btn btn-primary" href="Login.aspx">Logout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="Bootstrap Custom Designs/jquery/jquery.min.js"></script>
+    <script src="Bootstrap Custom Designs/jquery/popper.min.js"></script>
+    <script src="Bootstrap Custom Designs/jquery/bootstrap.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="Bootstrap Custom Designs/jquery/sb-admin.min.js"></script>
+
+</body>
+
+</html>
